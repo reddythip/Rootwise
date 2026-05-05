@@ -1,0 +1,22 @@
+node_modules/
+.next/
+
+# Environment and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.local.example
+
+# Local credentials and secret files
+.secrets/
+.auth-credential.enc.json
+*.pem
+*.p12
+*.key
+
+# Build/cache artifacts
+dist/
+coverage/
+*.tsbuildinfo
